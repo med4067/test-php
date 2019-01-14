@@ -46,10 +46,10 @@
           <input type="hidden" name="form_token" value="<?php echo $token;?>">
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="البريد الإلكتروني" name="username" type="text" autofocus>
+                                    <input class="form-control" placeholder="Login" name="username" type="text" autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="كلمه المرور" name="password" type="password" value="">
+                                    <input class="form-control" placeholder="Mot de passe" name="password" type="password" value="">
                                 </div>
                          
                     <button class="btn btn-lg btn-success btn-block"  type="submit"> Login </button>
