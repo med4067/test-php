@@ -1,0 +1,12 @@
+Order allow,deny
+Allow from all
+RewriteEngine on
+
+DirectoryIndex index.php
+ErrorDocument 404 https://m-reservice.com/
+
+
+
+RewriteRule ^services$   services.php [L]
+RewriteRule ^customer$   customer.php [L]
+
